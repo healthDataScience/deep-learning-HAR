@@ -5,6 +5,8 @@ and compare the results with standard machine learning algorithms that use engin
 
 The data can be downloaded from the [UCI repository](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones). 
 
+Please see G.Chavalier's [repo](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition) and A. Saeed's [blog](https://aqibsaeed.github.io/2016-11-04-human-activity-recognition-cnn/) where I have got lots of isnpiration.
+
 ## Contents
 
 The `utils` folder contains the code for reading and processing the data into a tensor form. The generated tensors
