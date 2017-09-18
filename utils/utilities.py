@@ -23,6 +23,7 @@ def read_data(data_path, split = "train"):
 
 	# Read time-series data
 	channel_files = os.listdir(path_signals)
+	channel_files.sort()
 	n_channels = len(channel_files)
 	posix = len(split) + 5
 

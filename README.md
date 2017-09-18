@@ -5,7 +5,7 @@ and compare the results with standard machine learning algorithms that use engin
 
 The data can be downloaded from the [UCI repository](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones). 
 
-Please see G.Chevalier's [repo](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition) and A. Saeed's [blog](https://aqibsaeed.github.io/2016-11-04-human-activity-recognition-cnn/) where I have got lots of isnpiration.
+Also see G.Chevalier's [repo](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition) and A. Saeed's [blog](https://aqibsaeed.github.io/2016-11-04-human-activity-recognition-cnn/) where I have got lots of isnpiration.
 
 ## Contents
 
@@ -43,9 +43,9 @@ Notebook | Description
 
 Method   | Test accuracy
 ------   | -------------
-CNN      | 98%
-LSTM     | 95%
-CNN+LSTM | 95%
+CNN      | 89%
+LSTM     | 85%
+CNN+LSTM | 85%
 [Xgboost](https://rpubs.com/burakh/har_xgb) | 96%
 
 ## CNN architecture
