@@ -43,7 +43,7 @@ Notebook | Description
 
 Method   | Test accuracy
 ------   | -------------
-CNN      | 89%
+CNN      | 92%
 LSTM     | 85%
 CNN+LSTM | 85%
 [Xgboost](https://rpubs.com/burakh/har_xgb) | 96%
