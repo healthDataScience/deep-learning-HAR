@@ -38,14 +38,16 @@ Notebook | Description
 [HAR-LSTM](https://github.com/bhimmetoglu/seizure-forecast/blob/master/HAR/HAR-LSTM.ipynb)    | LSTM network
 [HAR-CNN](https://github.com/bhimmetoglu/seizure-forecast/blob/master/HAR/HAR-CNN.ipynb)     | Convolutional neural network(CNN)
 [HAR-CNN-LSTM](https://github.com/bhimmetoglu/seizure-forecast/blob/master/HAR/HAR-CNN-LSTM.ipynb) | CNN + LSTM hybrid
+[HAR-CNN-Inception](https://github.com/bhimmetoglu/seizure-forecast/blob/master/HAR/HAR-CNN-Inception.ipynb) | CNN with inception module
 
 ## Results
 
 Method   | Test accuracy
 ------   | -------------
-CNN      | 92%
-LSTM     | 85%
-CNN+LSTM | 85%
+CNN      | 93%
+LSTM     | 88%
+CNN+LSTM | 88%
+CNN+Inception | 89%
 [Xgboost](https://rpubs.com/burakh/har_xgb) | 96%
 
 ## CNN architecture

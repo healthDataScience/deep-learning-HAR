@@ -47,16 +47,10 @@ def read_data(data_path, split = "train"):
 
 def standardize(train, test):
 	""" Standardize data """
-	all_data = np.concatenate((train,test), axis = 0)
-	assert np.allclose(all_data[:len(train)],train), "Wrong training set!"
-	assert np.allclose(all_data[len(train):], test), "Wrong test set!"
 
-	# Standardise each channel
-	all_data = (all_data - np.mean(all_data, axis=1)[:,None,:]) / np.std(all_data, axis=1)[:,None,:]
-
-	# Split back and return
-	X_train = all_data[:len(train)]
-	X_test = all_data[len(train):]
+	# Standardize train and test
+	X_train = (train - np.mean(train, axis=0)[None,:,:]) / np.std(train, axis=0)[None,:,:]
+	X_test = (test - np.mean(test, axis=0)[None,:,:]) / np.std(test, axis=0)[None,:,:]
 
 	return X_train, X_test
 
